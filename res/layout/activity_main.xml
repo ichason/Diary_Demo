@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+    <ImageView
+        android:layout_width="82.0dip"
+        android:layout_height="82.0dip"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null"
+        android:src="@drawable/me_head_bg" />
+
+    <com.doublefi123.diary.widget.CircularImage
+        android:id="@+id/cover_user_photo"
+        android:layout_width="74.0dip"
+        android:layout_height="74.0dip"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>
