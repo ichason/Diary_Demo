@@ -6,7 +6,7 @@ import android.os.Bundle;
 import com.doublefi123.diary.widget.CircularImage;
 /**
  * 
- * @author doublefi123
+ * @author chason
  *
  */
 public class MainActivity extends Activity {
